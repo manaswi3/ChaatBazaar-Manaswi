@@ -44,15 +44,6 @@ Follow these steps to contribute your changes to **ChaatBazaar**:
    git clone https://github.com/PatelHarsh2006/ChaatBazaar.git
    ```
 
-##             OR
-
-**In Github Desktop app : **
-   1. Click **Current repository**
-   2. Click  **Add**
-   3. Click  **Clone repository**
-   4. Choose repository
-   6. Click **Clone**.
-
 
  3. Create a Branch
     Navigate to the project directory and create a new branch for your changes:
@@ -107,30 +98,33 @@ So always follow the below steps, before any Pull request, for the corresponding
 
 
 
-### Method 1: Using Git Commands (Terminal Users)
+## Method 1: Using Git Commands (Terminal Users)
 
 ###  Fetch latest changes from original repo
+   ```bash
+   git fetch upstream
+   ```
 
-git fetch upstream
 
----
 
 
 ### Step - 2: Merge changes into your local main branch
+   ```bash
+   git merge upstream/main
+   ```
 
-git merge upstream/main
 
----
 
 ### Step - 3: Push updated code to your fork
    ```bash
    git push origin main
    ```
 
+
 ---
 
 
-### Method 2:  If using Github Desktop app :
+## Method 2:  If using Github Desktop app :
 
 ### Step - 1: 
 1. Go to your forked repository on GitHub webpage
